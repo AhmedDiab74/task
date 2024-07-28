@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:task/models/views/home_page_view.dart';
+import 'package:task/views/home_page_view.dart';
 
 void main() {
   runApp(const Task());
@@ -23,9 +23,7 @@ class Task extends StatelessWidget {
           ],
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            // Add your onPressed code here!
-          },
+          onPressed: () {},
           backgroundColor: Colors.pink,
           shape: const CircleBorder(),
           child: const Icon(
