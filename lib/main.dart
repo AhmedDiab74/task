@@ -23,9 +23,7 @@ class Task extends StatelessWidget {
           ],
         ),
         floatingActionButton: FloatingActionButton(
-          onPressed: () {
-            // Add your onPressed code here!
-          },
+          onPressed: () {},
           backgroundColor: Colors.pink,
           shape: const CircleBorder(),
           child: const Icon(
